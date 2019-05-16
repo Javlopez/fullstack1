@@ -20,7 +20,7 @@ mongoose.connect(db,  { useNewUrlParser: true })
 app.use('/api/items', items);
 
 //PORT
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5100;
 
 
 app.listen(PORT, ()=> console.log(`Server started on ${PORT}`));
